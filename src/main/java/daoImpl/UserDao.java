@@ -14,7 +14,7 @@ import paging.Pageble;
 public class UserDao extends AbstractDao<UserModel> implements IUserDao{
 
 	@Override
-	public UserModel findByUserNameAndPasswordAndStatus(String userName, String password) {
+	public UserModel findByUserNamePasswordStatus(String userName, String password) {
 	
 		if(password == null) {
 			StringBuilder sql = new StringBuilder("SELECT * FROM user AS u");
@@ -96,7 +96,7 @@ public class UserDao extends AbstractDao<UserModel> implements IUserDao{
 	}
 
 	@Override
-	public UserModel findByUserNameAndSdt(String userName, String Sdt) {
+	public UserModel findByUserNameSdt(String userName, String Sdt) {
 		StringBuilder sql = new StringBuilder("SELECT * FROM user AS u");
 		sql.append(" INNER JOIN role AS r ON r.id = u.roleid");
 		sql.append(" WHERE username = ? AND sdt = ?");

@@ -13,9 +13,9 @@ public class UserService implements IUserService{
 	IUserDao userDAO = new UserDao();
 
 	@Override
-	public UserModel findByUserNameAndPasswordAndStatus(String userName, String password) 
+	public UserModel findByUserNamePasswordStatus(String userName, String password) 
 	{
-			return userDAO.findByUserNameAndPasswordAndStatus(userName, password);
+			return userDAO.findByUserNamePasswordStatus(userName, password);
 	}
 
 	@Override
@@ -65,8 +65,8 @@ public class UserService implements IUserService{
 	}
 
 	@Override
-	public UserModel findByUserNameAndSdt(String userName, String Sdt) {
-		return userDAO.findByUserNameAndSdt(userName, Sdt);
+	public UserModel findByUserNameSdt(String userName, String Sdt) {
+		return userDAO.findByUserNameSdt(userName, Sdt);
 	}
 
 	@Override

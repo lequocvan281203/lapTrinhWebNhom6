@@ -6,14 +6,14 @@ import model.UserModel;
 import paging.Pageble;
 
 public interface IUserService {
-	UserModel findByUserNameAndPasswordAndStatus(String userName,String password);
+	UserModel findByUserNamePasswordStatus(String userName,String password);
 	UserModel findOne(Long id);
 	UserModel insertUser(UserModel userModel);
 	List<UserModel> findAll();
 	UserModel changePassword(UserModel userModel);
 	void deleteUser(long ids[]);
 	UserModel updateUser(UserModel userModel);
-	UserModel findByUserNameAndSdt(String userName,String Sdt);
+	UserModel findByUserNameSdt(String userName,String Sdt);
 	
 	//Paging
 	

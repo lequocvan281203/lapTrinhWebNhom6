@@ -6,12 +6,12 @@ import model.UserModel;
 import paging.Pageble;
 
 public interface IUserDao extends GenericDao<UserModel> {
-	UserModel findByUserNameAndPasswordAndStatus(String userName,String password);
+	UserModel findByUserNamePasswordStatus(String userName,String password);
 	Long insertUser(UserModel userModel);
 	UserModel findOne(Long id);
 	List<UserModel> findAll();
 	void chagePassword(UserModel userModel);
-	UserModel findByUserNameAndSdt(String userName,String Sdt);
+	UserModel findByUserNameSdt(String userName,String Sdt);
 	void deleteUser(Long id);
 	void updateUser(UserModel userModel);
 	
