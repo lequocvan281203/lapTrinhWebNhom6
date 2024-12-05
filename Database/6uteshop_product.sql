@@ -245,7 +245,7 @@ INSERT INTO `product` VALUES
 (107,'Ghế IKEA', 'Ghế IKEA', 500000, 4, 20, 30),
 (108,'Bàn IKEA', 'Bàn IKEA', 1000000, 4, 25, 30),
 (109,'Tủ IKEA', 'Tủ IKEA', 1500000, 4, 15, 30),
-(,'Giường IKEA', 'Giường IKEA', 2000000, 4, 30, 30);
+(110,'Giường IKEA', 'Giường IKEA', 2000000, 4, 30, 30);
 
 -- JYSK
 INSERT INTO `product` VALUES
