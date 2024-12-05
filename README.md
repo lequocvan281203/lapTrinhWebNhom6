@@ -1,5 +1,5 @@
 # lapTrinhWebNhom6
-![ERD - Entity Relationship Diagram](https://drive.google.com/file/d/1ClfO9h4W9HEXoLDhpMLaofXLACsOcXYg/view?usp=drive_link)
+![ERD - Entity Relationship Diagram](image/333804008-9a5c7db3-ba1a-46bf-b3b6-f29318d70585.png)
 
 Thực thể (bảng):
 
