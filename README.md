@@ -14,12 +14,13 @@ orderitem: Chi tiết các sản phẩm trong một hóa đơn với BillID, Pro
 promotion: Thông tin về các chương trình khuyến mãi bao gồm ProductID, StartDate, EndDate, và SaleOff.  
 
 ##Mối quan hệ:
-user - role: Mối quan hệ một-nhiều (one-to-many), một người dùng có thể có một vai trò.
-category - category: Mối quan hệ một-nhiều (one-to-many) thể hiện danh mục cha và danh mục con.
-product - category: Mối quan hệ nhiều-một (many-to-one), một sản phẩm thuộc về một danh mục.
-product - brand: Mối quan hệ nhiều-một (many-to-one), một sản phẩm thuộc về một thương hiệu.
-image - product: Mối quan hệ nhiều-một (many-to-one), một sản phẩm có thể có nhiều hình ảnh.
-bill - user: Mối quan hệ nhiều-một (many-to-one), một người dùng có thể có nhiều hóa đơn.
-orderitem - bill: Mối quan hệ nhiều-một (many-to-one), một hóa đơn có thể có nhiều sản phẩm.
-orderitem - product: Mối quan hệ nhiều-một (many-to-one), một sản phẩm có thể xuất hiện trong nhiều hóa đơn.
-promotion - product: Mối quan hệ nhiều-một (many-to-one), một sản phẩm có thể có nhiều chương trình khuyến mãi.
+user - role: Mối quan hệ một-nhiều (one-to-many), một người dùng có thể có một vai trò.  
+category - category: Mối quan hệ một-nhiều (one-to-many) thể hiện danh mục cha và danh mục con.  
+product - category: Mối quan hệ nhiều-một (many-to-one), một sản phẩm thuộc về một danh mục.  
+product - brand: Mối quan hệ nhiều-một (many-to-one), một sản phẩm thuộc về một thương hiệu.  
+image - product: Mối quan hệ nhiều-một (many-to-one), một sản phẩm có thể có nhiều hình ảnh.  
+bill - user: Mối quan hệ nhiều-một (many-to-one), một người dùng có thể có nhiều hóa đơn.  
+orderitem - bill: Mối quan hệ nhiều-một (many-to-one), một hóa đơn có thể có nhiều sản phẩm.  
+orderitem - product: Mối quan hệ nhiều-một (many-to-one), một sản phẩm có thể xuất hiện trong nhiều hóa đơn.  
+promotion - product: Mối quan hệ nhiều-một (many-to-one), một sản phẩm có thể có nhiều chương trình khuyến mãi.  
+
