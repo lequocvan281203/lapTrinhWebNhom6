@@ -13,7 +13,7 @@ bill: Lưu trữ thông tin về hóa đơn bao gồm UserID, Date, TotalPrice, 
 orderitem: Chi tiết các sản phẩm trong một hóa đơn với BillID, ProductID, và Quantity.  
 promotion: Thông tin về các chương trình khuyến mãi bao gồm ProductID, StartDate, EndDate, và SaleOff.  
 
-##Mối quan hệ:
+##Mối quan hệ:  
 user - role: Mối quan hệ một-nhiều (one-to-many), một người dùng có thể có một vai trò.  
 category - category: Mối quan hệ một-nhiều (one-to-many) thể hiện danh mục cha và danh mục con.  
 product - category: Mối quan hệ nhiều-một (many-to-one), một sản phẩm thuộc về một danh mục.  
