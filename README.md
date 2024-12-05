@@ -1,5 +1,6 @@
 # lapTrinhWebNhom6
 ![ERD - Entity Relationship Diagram](https://drive.google.com/file/d/1ClfO9h4W9HEXoLDhpMLaofXLACsOcXYg/view?usp=drive_link)
+
 Thực thể (bảng):
 
 user: Lưu trữ thông tin người dùng (khách hàng) với các thuộc tính như username, password, fullname, status, roleid, sdt.
