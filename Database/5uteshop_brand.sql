@@ -57,7 +57,7 @@ INSERT INTO `brand` VALUES
 (17, 'Pilot', 'Thương hiệu Pilot', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpqueAhW2GgkXTwkit_2oihxi4NVNvdWwNfA&s' ),
 (18, 'Parker', 'Thương hiệu Parker', 'https://penstore.vn/wp-content/uploads/2018/03/cropped-parker-pen-logo-butparkervietnam.png' ),
 (19, 'Montblanc', 'Thương hiệu Montblanc', 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Montblanc_logo.svg' );
-0
+
 -- Thời trang:--
 INSERT INTO `brand` VALUES
 (20, 'Nike', 'Thương hiệu Nike', 'https://inkythuatso.com/uploads/images/2021/11/logo-nike-inkythuatso-2-01-04-15-42-44.jpg' ),
