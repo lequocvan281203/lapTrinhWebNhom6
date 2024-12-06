@@ -1,0 +1,67 @@
+/* src/main/webapp/resources/css/styles.css */
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+}
+
+header img {
+  height: 50px;
+}
+
+header .form-control {
+  border-radius: 0;
+}
+
+header .btn-outline-success {
+  border-radius: 0;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar .nav-link {
+  color: #343a40;
+}
+
+.navbar .nav-link:hover {
+  color: #007bff;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-outline-secondary {
+  border-radius: 0;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #007bff;
+}
